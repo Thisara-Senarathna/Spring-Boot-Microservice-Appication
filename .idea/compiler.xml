@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/ABCCompany/apigateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ABCCompany/discoveryserver/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apigateway" />
+        <module name="product" />
+        <module name="inventory (1) (org.abccompany)" />
+        <module name="order (1) (org.abccompany)" />
+        <module name="discoveryserver" />
+        <module name="inventory" />
+        <module name="product (1) (org.abccompany)" />
+        <module name="order" />
+        <module name="base" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apigateway" options="-parameters" />
+      <module name="base" options="-parameters" />
+      <module name="discoveryserver" options="-parameters" />
+      <module name="inventory" options="-parameters" />
+      <module name="inventory (1) (org.abccompany)" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="order (1) (org.abccompany)" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="product (1) (org.abccompany)" options="-parameters" />
+    </option>
+  </component>
+</project>
